@@ -1,6 +1,7 @@
 node_modules/
 vendor/
 .cache/
+cache/
 themes/**/dist/
 !themes/default/dist/
 config.php
