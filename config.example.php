@@ -27,4 +27,6 @@ $config = [
 	'logo' => 'mark-shades.jpg',
 	'logo_alt' => 'Mark Biek wearing sunglasses',
 	'title' => 'Mark Biek',
+	'theme' => 'default',
+	'resource_path' => 'themes/default/dist',
 ];
