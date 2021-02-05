@@ -1,0 +1,14 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch index.php",
+    "build": "parcel build index.php"
+  },
+  "author": "Mark Biek <info@biek.org> (http://mark.biek.org)",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
