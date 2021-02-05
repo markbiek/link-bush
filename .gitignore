@@ -1,4 +1,6 @@
 node_modules/
+vendor/
 .cache/
 dist/
+config.php
 .*.swp

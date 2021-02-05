@@ -1,0 +1,92 @@
+$color-primary-0: #502C73;	// Main Primary color */
+$color-primary-1: #9277AC;
+$color-primary-2: #6F4D8F;
+$color-primary-3: #351456;
+$color-primary-4: #1F0439;
+$black: #16161d;
+$white: #dedede;
+
+// Responsive
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+$screen-xl: 2000px;
+
+@mixin respond($minWidth) {
+	@media only screen and (min-width: $minWidth) {
+		@content;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+	font-family: 'Fira Code', monospace;
+	color: $color-primary-4;
+}
+
+a {
+	color: $white;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background: $color-primary-2;
+	background-repeat: no-repeat;
+	background: linear-gradient(to left top, $color-primary-0, $color-primary-4);
+	padding: 2em 0;
+}
+
+header {
+	img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		display: inline-block;
+	}
+
+	p {
+		text-align: center;
+		color: $white;
+	}
+}
+
+article {
+	width: 95%;
+
+	@include respond($screen-md) {
+		width: 50%;
+	}
+	margin: 1em 0;
+
+	&:nth-child(2) {
+		margin-top: 4em;
+	}
+
+	a {
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		font-size: 2em;
+		display: block;
+		width: 100%;
+		height: 3em;
+		line-height: 3em;
+		border: 3px solid $white;
+
+		&:hover {
+			background: $white;
+			border-color: $black;
+			color: $color-primary-4;
+		}
+	}
+}
