@@ -16,14 +16,14 @@
 		<meta property="og:url" content="{{ $config['meta']['url'] }}">
 		<meta property="og:title" content="{{ $config['meta']['title'] }}">
 		<meta property="og:description" content="{{ $config['meta']['description'] }}">
-		<meta property="og:image" content="{{ $config['resource_path'] }}/{{ $config['logo'] }}">
+		<meta property="og:image" content="{{ $config['meta']['image'] }}">
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
 		<meta property="twitter:url" content="{{ $config['meta']['url'] }}">
 		<meta property="twitter:title" content="{{ $config['meta']['title'] }}">
 		<meta property="twitter:description" content="{{ $config['meta']['description'] }}">
-		<meta property="twitter:image" content="{{ $config['resource_path'] }}/{{ $config['logo'] }}">
+		<meta property="twitter:image" content="{{ $config['meta']['image'] }}">
 	@endif
 </head>
 <body>

@@ -34,6 +34,6 @@ $config = [
 		'title' => 'Mark Biek',
 		'description' => 'My name is Mark Biek and I am a software developer, currently in Louisville, KY. I like to work with smart, kind people making beautiful and interesting things.',
 		'url' => 'https://mark.biek.org',
-		'image' => 'mark-shades.jpg',
+		'image' => 'https://mark.biek.org/links/themes/default/dist/mark-shades.jpg',
 	],
 ];
