@@ -29,4 +29,11 @@ $config = [
 	'title' => 'Mark Biek',
 	'theme' => 'default',
 	'resource_path' => 'themes/default/dist',
+	// Optional (if you want want twitter/facebook/google previews)
+	'meta' => [
+		'title' => 'Mark Biek',
+		'description' => 'My name is Mark Biek and I am a software developer, currently in Louisville, KY. I like to work with smart, kind people making beautiful and interesting things.',
+		'url' => 'https://mark.biek.org',
+		'image' => 'mark-shades.jpg',
+	],
 ];
